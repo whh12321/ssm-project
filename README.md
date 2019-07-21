@@ -6,7 +6,7 @@
 
 框架：SSM
 数据库：MySQL
-前端：HTML、CSS、JavaScript、jQuery、JSTL
+前端：HTML、JavaScript、jQuery、JSTL
 WEB服务器：Tomcat
 单元测试：JUnit
 JSON解析工具：Jackson
