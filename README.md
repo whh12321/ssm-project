@@ -34,7 +34,10 @@ JSON解析工具：Jackson
 1、实现代码
 
 CategoryMapper用来与Category.xml形成映射，执行的方法是数据库的CRUD操作；
-CategoryService接口实现类中注入CategoryMapper；
+CategoryService业务逻辑接口实现类中注入CategoryMapper；
+CategoryServiceImpl业务逻辑实现类，一般写事务控制；
+Controller：springMVC就是在这里发挥作用的；
+pojo：实体类存放的位置；
 
 思路为：
 1. 首先浏览器上访问路径 /listCategory
